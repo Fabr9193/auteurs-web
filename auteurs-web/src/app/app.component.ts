@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import {book} from "./models/bookModel"
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Auteurs Web Client';
+
+  username: string = "test";
+  book : book[];
 }
